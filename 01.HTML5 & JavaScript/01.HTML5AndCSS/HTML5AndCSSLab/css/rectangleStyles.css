@@ -1,0 +1,18 @@
+﻿.blueRectangle {
+    border: 2px blue dotted;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.redRectangle {
+    border: 2px red dashed;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.greenRectangle {
+    border: 2px green solid;
+    border-radius: 2px;
+    text-align: center;
+    padding: 10px;
+}
