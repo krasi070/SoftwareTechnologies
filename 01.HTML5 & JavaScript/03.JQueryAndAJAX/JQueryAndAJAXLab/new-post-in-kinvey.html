@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create New Post</title>
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script src="scripts/loadPosts.js"></script>
+</head>
+<body>
+    Title: <input type="text" id="newPostTitle" /><br>
+    Body: <input type="text" id="newPostBody" /><br>
+    <button id="createPost">Create New Post</button>
+    <script>
+        $('#createPost').click(createPost);
+    </script>
+</body>
+</html>

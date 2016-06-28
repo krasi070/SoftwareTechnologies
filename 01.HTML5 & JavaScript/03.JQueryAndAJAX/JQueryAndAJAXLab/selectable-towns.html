@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Selectable Towns</title>
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script src="scripts/onTownClick.js"></script>
+    <style>
+        li {
+            padding: 15px;
+            font-size: 24px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Towns</h1>
+    <ul id="towns">
+        <li>Sofia</li>
+        <li>Varna</li>
+        <li>Plovdiv</li>
+        <li>Bourgas</li>
+        <li>Rousse</li>
+    </ul>
+    <button id="showTownsButton">Show Towns</button>
+    <script>
+        $('#towns li').click(onTownClick);
+    </script>
+    <script>
+        $('#showTownsButton').click(showTowns);
+    </script>
+</body>
+</html>
