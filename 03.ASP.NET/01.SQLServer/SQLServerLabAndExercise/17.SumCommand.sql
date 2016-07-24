@@ -1,0 +1,1 @@
+select SUM(id) as Sum_IDs from Tags 

@@ -1,0 +1,1 @@
+select MAX(ID) as Max_Value from Tags

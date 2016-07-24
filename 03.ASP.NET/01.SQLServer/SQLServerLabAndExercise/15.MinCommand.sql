@@ -1,0 +1,1 @@
+select COUNT(AuthorID) as Min_Value from Posts

@@ -1,0 +1,1 @@
+select title, body from Posts

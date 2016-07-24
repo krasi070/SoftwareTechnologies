@@ -1,0 +1,1 @@
+select COUNT(*) as Posts_Count from Posts 
